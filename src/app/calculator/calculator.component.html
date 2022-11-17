@@ -1,0 +1,106 @@
+<div class="container"  >
+    <div class="row justify-content-center"  >
+        <div class="col-4" id="containe">
+            <div class="card" id="container">
+                <div class="card-body" >
+                    <div class="row"  >
+                        <div class="col-md-12" >
+                            <input type="text" name="pantalla" [(ngModel)]="screen"
+                            id="pantalla" class="form-control text-end" 
+                            readonly>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('7')" class="btn btn-outline-primary" id="btn" type="button">7</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('8')" class="btn btn-outline-primary" id="btn" type="button">8</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('9')" class="btn btn-outline-primary" id="btn" type="button">9</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="operacion('/')" class="btn btn-outline-primary" id="btn" type="button">/</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('4')" class="btn btn-outline-primary" id="btn" type="button">4</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('5')" class="btn btn-outline-primary" id="btn" type="button">5</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('6')" class="btn btn-outline-primary" id="btn" type="button">6</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="operacion('*')" class="btn btn-outline-primary" id="btn" type="button">*</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('1')" class="btn btn-outline-primary" id="btn" type="button">1</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('2')" class="btn btn-outline-primary" id="btn" type="button">2</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('3')" class="btn btn-outline-primary" id="btn" type="button">3</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="operacion('-')" class="btn btn-outline-primary" id="btn" type="button">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="limpiar()" class="btn btn-danger kz-btn" type="button" id="btn">C</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="calcular('0')" class="btn btn-outline-primary" id="btn" type="button">0</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="resultado()" class="btn btn-outline-primary" id="btn" type="button">=</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="d-grid">
+                                <button (click)="operacion('+')" class="btn btn-outline-primary" id="btn" type="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

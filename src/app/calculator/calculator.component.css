@@ -1,0 +1,33 @@
+* {
+    font-family: 'Fraunces', serif;
+    color: rgb(8, 8, 8);
+}
+
+body {
+    margin: 20px;
+    background-color: #b6b8bb;
+
+}
+
+
+.pantalla {
+    grid-column: 1 / -1;
+    padding: 150px;
+    display: flex;
+    margin: 50px 10px 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #f3abab;
+    border-radius: 320px;
+    word-break: break-all;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 100;
+    border-radius: 140px;
+    font-size: 0.9em;
+    background-color: #eba6e1;
+}
